@@ -1,17 +1,37 @@
-# flutter_application_1
+# PersonaBudget - Real-time Budget Nudge Agent
 
-A new Flutter project.
+PersonaBudget is an ultra-premium, production-grade AI-powered financial intervention agent designed to help users curb excessive food delivery spending.
 
-## Getting Started
+## 🚀 Key Features
 
-This project is a starting point for a Flutter application.
+### 💎 Ultra-Premium UI/UX
+- **Glassmorphic Aesthetics**: Modern design with frosted glass effects and deep blurs.
+- **Mesh Gradients**: Stunning indigo and purple animated backgrounds.
+- **Interactive Risk Meter**: Real-time rotating and glowing meter that calculates budget safety.
+- **Staggered Animations**: Fluid list transitions and tactile feedback.
 
-A few resources to get you started if this is your first Flutter project:
+### 📱 Intelligent Interceptor
+- **Real-time SMS Reading**: Headless background service that monitors bank debit messages (Swiggy, Zomato, etc.) using the `telephony` plugin.
+- **Risk Engine**: Dynamically calculates a risk score (0-100) based on spending velocity, budget limits, and ordering patterns.
+- **Custom Notifications**: Moving beyond simple SnackBars into premium sliding dropdown alerts.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### 📊 Deep Analytics
+- **Data Visualizations**: Beautiful bar and pie charts powered by `fl_chart`.
+- **Spending Breakdown**: Tracking Top Merchants, Average Daily Spend, and 7-day trailing history.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+- **Framework**: Flutter (Material 3)
+- **Local Database**: Hive (for encrypted, fast local persistence)
+- **State Management**: Provider
+- **Animations**: Flutter Animate
+- **Charts**: fl_chart
+- **Fonts**: Google Fonts (Outfit & Inter)
+
+## 📖 Project Documentation
+More detailed information can be found in the [docs](./docs) folder:
+- [Features Walkthrough](./docs/features_walkthrough.md)
+- [Implementation Details](./docs/implementation_details.md)
+
+---
+
+Developed for the Hackathon by [Sravya Somineni](https://github.com/sravyasomineni-ux).
