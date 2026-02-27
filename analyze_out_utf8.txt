@@ -1,0 +1,32 @@
+﻿Analyzing flutter_application_1...                              
+
+   info - Statements in an if should be enclosed in a block - lib\services\database_service.dart:16:7 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\database_service.dart:18:7 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\database_service.dart:20:7 - curly_braces_in_flow_control_structures
+   info - Use interpolation to compose strings and values - lib\services\emotion_engine.dart:62:14 - prefer_interpolation_to_compose_strings
+   info - Statements in an if should be enclosed in a block - lib\services\emotion_engine.dart:71:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\emotion_engine.dart:73:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\emotion_engine.dart:75:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\emotion_engine.dart:77:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\emotion_engine.dart:79:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\emotion_engine.dart:83:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\emotion_engine.dart:85:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\services\emotion_engine.dart:87:9 - curly_braces_in_flow_control_structures
+warning - Unused import: '../models/user_profile.dart' - lib\services\sms_service.dart:4:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\services\sms_service.dart:35:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\sms_service.dart:46:7 - avoid_print
+   info - Missing type annotation - lib\services\sms_service.dart:87:1 - strict_top_level_inference
+   info - Don't invoke 'print' in production code - lib\services\sms_service.dart:88:3 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\ui\screens\home_screen.dart:42:9 - use_build_context_synchronously
+   info - Statements in an if should be enclosed in a block - lib\ui\screens\home_screen.dart:57:7 - curly_braces_in_flow_control_structures
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\home_screen.dart:103:38 - deprecated_member_use
+   info - Unnecessary use of string interpolation - lib\ui\screens\home_screen.dart:141:29 - unnecessary_string_interpolations
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\home_screen.dart:253:53 - deprecated_member_use
+   info - Statements in an if should be enclosed in a block - lib\ui\screens\onboarding_screen.dart:113:23 - curly_braces_in_flow_control_structures
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\ui\screens\onboarding_screen.dart:142:25 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\ui\screens\onboarding_screen.dart:152:27 - deprecated_member_use
+   info - 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\ui\theme.dart:26:9 - deprecated_member_use
+  error - The argument type 'CardTheme' can't be assigned to the parameter type 'CardThemeData?'.  - lib\ui\theme.dart:82:18 - argument_type_not_assignable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\widgets\popups.dart:68:30 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\widgets\popups.dart:132:50 - deprecated_member_use
+
